@@ -6,3 +6,5 @@ jobs:
     steps:
       - name : print some random message
         run : echo "some random message"
+      - name : Checkout code
+        uses : actions/checkout@v2
