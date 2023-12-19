@@ -1,0 +1,8 @@
+name: my-workflow
+on: push
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name : print some random message
+        run : echo "some random message"
